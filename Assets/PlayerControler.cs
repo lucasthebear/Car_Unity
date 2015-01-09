@@ -30,4 +30,9 @@ public class PlayerControler : MonoBehaviour {
 		rigidbody.AddForce(movement);
 
 	}
+	void OnCollisionEnter(Collision other)
+	{Destroy(this.gameObject);
+	Application.LoadLevel ("scene2");
+	
+	}
 }

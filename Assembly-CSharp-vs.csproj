@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{028F9E85-5EE2-0624-77BF-E2F0476BBE69}</ProjectGuid>
+	<ProjectGuid>{D80C414E-F0A9-484C-8C73-47EDE5A00866}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,6 +49,8 @@
      <Compile Include="Assets\FaceFront.cs" />
      <Compile Include="Assets\FollowScript.cs" />
      <Compile Include="Assets\PlayerControler.cs" />
+     <Compile Include="Assets\Restart.cs" />
+     <Compile Include="Assets\Timer.cs" />
      <Compile Include="Assets\cube.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
